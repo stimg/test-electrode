@@ -108,4 +108,8 @@ You could use Thunk if you prefer a simpler approach and do not need the benefit
 
 Use Jest, Mocha, Enzym, Chai.
 
-Use Travis CI (http://travis-ci.org) to set up autmatical testing when you change code and make pushes into the repository.
+Use Travis CI (http://travis-ci.org) to set up automatic testing when you change code and make pushes into the repository.
+
+### Progressive web apps (PWA)
+
+A progressive web application in its simplest form is a web app that incorporates native app functions. For example, it might have the ability to go offline, implement push notifications, access GPU rendering, and so much more. PWA use service workers for each function.  
