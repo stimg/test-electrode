@@ -107,3 +107,5 @@ You could use Thunk if you prefer a simpler approach and do not need the benefit
 ### Testing
 
 Use Jest, Mocha, Enzym, Chai.
+
+Use Travis CI (http://travis-ci.org) to set up autmatical testing when you change code and make pushes into the repository.
