@@ -112,4 +112,19 @@ Use Travis CI (http://travis-ci.org) to set up automatic testing when you change
 
 ### Progressive web apps (PWA)
 
-A progressive web application in its simplest form is a web app that incorporates native app functions. For example, it might have the ability to go offline, implement push notifications, access GPU rendering, and so much more. PWA use service workers for each function.  
+A progressive web application in its simplest form is a web app that incorporates native app functions. For example, it might have the ability to go offline, implement push notifications, access GPU rendering, and so much more. PWA use service workers for each function. Every service worker needs a configuration. It can be fround in 
+
+    /congig/sw-config.js
+
+For each function you can set up a service worker. Also you could set up push notifications by using that service with Firebase and set up the proper service worker in your application So for each function you can set up a service worker. Also you could set up push notifications by using that service with Firebase on `firebase.google.com` and set up the proper service worker in your application. 
+
+If you need more information on progressive web apps, you can go to `developers.google.com/web/progessive-web-apps`
+
+### SSR and caching optimization
+
+Server Side Rendering comes as a default feature of Electrode. There's nothing additional to install. It's ready to go right out of the box. SSR can be expensive in terms of performance. Enable caching only for most expensive components.
+
+Check expamples for caching and profiling at 
+
+    http://github.com/electrode-samples/hapi-react-redux
+
