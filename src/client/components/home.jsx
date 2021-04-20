@@ -53,7 +53,7 @@ class Home extends React.Component {
 
         <section styleName="custom.header">
           <h2>
-            <span>testing electrode with Travis CI</span>
+            <span>Thi is electrode with Travis CI</span>
             <a href="https://github.com/electrode-io">
               {"Electrode"}
               <img src={electrodePng} />
